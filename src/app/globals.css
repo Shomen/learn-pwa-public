@@ -8,8 +8,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-lh-logo-bg: #ffffff;
+  --color-lh-logo-text: oklch(62.7% 0.265 303.9);
+  --color-lh-menu-background: oklch(62.7% 0.265 303.9);
+  --color-lh-menu-text: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +21,22 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Use the Next.js font variable --font-nunito when available; fall back to system fonts */
+html {
+  font-family: var(--font-nunito, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial);
+}
+
+#mobile-menu {
+  ul li {
+    margin-right: 0;
+    a {
+      border-bottom: 1px solid white;
+      padding: 4px;
+      display: inline-block;
+      width: 100%;
+      &:hover {
+        @apply bg-purple-800;
+      }
+    }
+  }
 }
