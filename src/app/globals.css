@@ -27,13 +27,9 @@ html {
 }
 
 #mobile-menu {
-  ul li {
-    margin-right: 0;
-    a {
-      border-bottom: 1px solid white;
-      padding: 4px;
-      display: inline-block;
-      width: 100%;
+  li {    
+    a {      
+      padding: 4px;      
       &:hover {
         @apply bg-purple-800;
       }

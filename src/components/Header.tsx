@@ -2,10 +2,14 @@
  * Header component
  */
 'use client';
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Header() {
-    // Menu visibility is handled via CSS hover (group + group-hover)
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+    const closeMenu = () => setIsMenuOpen(false);
 
     return (
         <header className="w-full py-4 bg-lh-menu-background text-white">
@@ -33,32 +37,45 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
-                <div className="relative md:hidden group">
-                    <button id="mobile-menu-button" className="md:hidden" aria-haspopup="true">
+                <div className="md:hidden">
+                    <button 
+                        id="mobile-menu-button" 
+                        className="md:hidden cursor-pointer" 
+                        aria-haspopup="true"
+                        onClick={toggleMenu}
+                    >
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
                     </button>                   
 
-                    <div id="mobile-menu" className="w-[150] hidden group-hover:block md:hidden absolute top-6 right-0 bg-purple-400">
-                        <ul className="block space-x-4 text-right">
+                    
+                        <ul id="mobile-menu" className={`fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-8 ${isMenuOpen ? 'flex' : 'hidden'}`}>
                             <li>
-                                <Link href="/" className="">
+                                <Link href="/" className="" onClick={closeMenu}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/packages" className="">
+                                <Link href="/packages" className="" onClick={closeMenu}>
                                     Packages
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="">
+                                <Link href="/contact" className="" onClick={closeMenu}>
                                     Contact
                                 </Link>
                             </li>
+                            <li>
+                                <button 
+                                    onClick={closeMenu}
+                                    className="cursor-pointer active:ring-3 active:ring-white aspect-square size-10 p-1 items-center justify-center bg-purple-600 hover:bg-purple-700 transition text-white rounded-md flex"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                                </button>
+                            </li>
                         </ul>
-                    </div>
+                    
                 </div>
             </nav>
         </header>
