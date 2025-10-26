@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,9 +33,11 @@ export default function Home() {
           <p className="text-lg mb-6">
             Join thousands of learners who have transformed their careers with LearnHub. Sign up now and take the first step towards achieving your goals.
           </p>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md transition">
-            Sign Up Now
-          </button>
+          <Link href="/registration"> 
+            <button className="cursor-pointer bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md transition">
+              Sign Up Now
+            </button>
+          </Link>
         </div>
       </section>
       <section className="max-w-4xl mx-auto my-12 px-4 text-center">
