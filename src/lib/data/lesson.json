@@ -1,0 +1,594 @@
+[
+  {
+    "id": "html-1",
+    "coursename": "HTML Course",
+    "heading": "HTML Fundamentals - Complete Beginner Guide",
+    "description": "Learn HTML from scratch with this comprehensive course. HTML (HyperText Markup Language) is the foundation of web development. In this course, you'll learn how to structure web pages using HTML elements, create forms, add images, and understand semantic HTML. You'll also learn about HTML5 features, accessibility best practices, and how to create responsive layouts. By the end of this course, you'll be able to create professional-looking web pages and have a solid understanding of HTML that will serve as the foundation for learning CSS and JavaScript.",
+    "videourl": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+    "category": "HTML",
+    "package": "Beginner",
+    "duration": "2h 30m",
+    "totalVideos": 6,
+    "videos": [
+      {
+        "id": "html-1-1",
+        "title": "Introduction to HTML",
+        "description": "Learn what HTML is and why it's important for web development. Understand the basic structure of HTML documents and how browsers interpret HTML code.",
+        "duration": "15m",
+        "videourl": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+      },
+      {
+        "id": "html-1-2",
+        "title": "HTML Elements and Tags",
+        "description": "Explore different HTML elements like headings, paragraphs, lists, and links. Learn how to properly structure content using semantic HTML tags.",
+        "duration": "20m",
+        "videourl": "https://www.youtube.com/watch?v=88PXJAA6szs"
+      },
+      {
+        "id": "html-1-3",
+        "title": "HTML Forms and Input Elements",
+        "description": "Create interactive forms with various input types. Learn about form validation, labels, and how to make forms accessible to all users.",
+        "duration": "25m",
+        "videourl": "https://www.youtube.com/watch?v=fNcJuPIZ2WE"
+      },
+      {
+        "id": "html-1-4",
+        "title": "Images and Media in HTML",
+        "description": "Add images, videos, and audio to your web pages. Learn about different image formats, responsive images, and media accessibility.",
+        "duration": "18m",
+        "videourl": "https://www.youtube.com/watch?v=9zBdE8BwZ1c"
+      },
+      {
+        "id": "html-1-5",
+        "title": "HTML5 Semantic Elements",
+        "description": "Use modern HTML5 semantic elements like header, nav, main, section, article, and footer to create well-structured, accessible web pages.",
+        "duration": "22m",
+        "videourl": "https://www.youtube.com/watch?v=ZTh5qrIyHpI"
+      },
+      {
+        "id": "html-1-6",
+        "title": "HTML Best Practices and Validation",
+        "description": "Learn HTML best practices, code organization, and how to validate your HTML code. Understand accessibility guidelines and SEO optimization.",
+        "duration": "20m",
+        "videourl": "https://www.youtube.com/watch?v=Wm6CUkswsNw"
+      }
+    ]
+  },
+  {
+    "id": "html-2",
+    "coursename": "HTML Course",
+    "heading": "Advanced HTML Techniques and Modern Development",
+    "description": "Take your HTML skills to the next level with advanced techniques and modern development practices. This course covers HTML5 APIs, web components, progressive web app features, and advanced form handling. You'll learn about custom data attributes, microdata, structured data, and how to create interactive web applications using only HTML. The course also covers performance optimization, security best practices, and how to work with modern frameworks and tools.",
+    "videourl": "https://www.youtube.com/watch?v=88PXJAA6szs",
+    "category": "HTML",
+    "package": "Beginner",
+    "duration": "3h 15m",
+    "totalVideos": 5,
+    "videos": [
+      {
+        "id": "html-2-1",
+        "title": "HTML5 APIs and Web Storage",
+        "description": "Explore HTML5 APIs including localStorage, sessionStorage, geolocation, and drag-and-drop functionality. Learn how to create interactive web applications.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=88PXJAA6szs"
+      },
+      {
+        "id": "html-2-2",
+        "title": "Web Components and Custom Elements",
+        "description": "Create reusable web components using HTML5 custom elements. Learn about shadow DOM, templates, and how to build modular web applications.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=fNcJuPIZ2WE"
+      },
+      {
+        "id": "html-2-3",
+        "title": "Progressive Web App Features",
+        "description": "Implement PWA features using HTML5 including service workers, web app manifests, and offline functionality. Create app-like experiences in the browser.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=9zBdE8BwZ1c"
+      },
+      {
+        "id": "html-2-4",
+        "title": "Advanced Form Handling and Validation",
+        "description": "Master advanced form techniques including custom validation, file uploads, and form submission handling. Learn about accessibility and user experience.",
+        "duration": "38m",
+        "videourl": "https://www.youtube.com/watch?v=ZTh5qrIyHpI"
+      },
+      {
+        "id": "html-2-5",
+        "title": "HTML Performance and Optimization",
+        "description": "Optimize HTML for performance including lazy loading, preloading, and efficient markup. Learn about Core Web Vitals and SEO optimization.",
+        "duration": "37m",
+        "videourl": "https://www.youtube.com/watch?v=Wm6CUkswsNw"
+      }
+    ]
+  },
+  {
+    "id": "css-1",
+    "coursename": "CSS Course",
+    "heading": "CSS Fundamentals - Styling Your Web Pages",
+    "description": "Master CSS from the ground up with this comprehensive course. CSS (Cascading Style Sheets) is what makes websites beautiful and responsive. You'll learn about selectors, properties, the box model, flexbox, grid, animations, and responsive design. This course covers everything from basic styling to advanced techniques like CSS custom properties, transforms, and modern layout methods. By the end, you'll be able to create stunning, responsive websites that work perfectly on all devices.",
+    "videourl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+    "category": "CSS",
+    "package": "Beginner",
+    "duration": "4h 20m",
+    "totalVideos": 7,
+    "videos": [
+      {
+        "id": "css-1-1",
+        "title": "Introduction to CSS and Selectors",
+        "description": "Learn the basics of CSS, how it works with HTML, and different types of selectors. Understand specificity and the cascade in CSS.",
+        "duration": "25m",
+        "videourl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
+      },
+      {
+        "id": "css-1-2",
+        "title": "CSS Box Model and Layout",
+        "description": "Master the CSS box model including margin, padding, border, and content. Learn about different display types and positioning.",
+        "duration": "30m",
+        "videourl": "https://www.youtube.com/watch?v=rIO5326F4PE"
+      },
+      {
+        "id": "css-1-3",
+        "title": "Flexbox Layout System",
+        "description": "Create flexible layouts using CSS Flexbox. Learn about flex containers, flex items, and how to build responsive designs with flexbox.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=3YW65K6LcIA"
+      },
+      {
+        "id": "css-1-4",
+        "title": "CSS Grid Layout",
+        "description": "Master CSS Grid for complex layouts. Learn about grid containers, grid items, and how to create sophisticated responsive designs.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=0xMQfnTU6oo"
+      },
+      {
+        "id": "css-1-5",
+        "title": "CSS Animations and Transitions",
+        "description": "Add smooth animations and transitions to your web pages. Learn about keyframes, timing functions, and performance optimization.",
+        "duration": "32m",
+        "videourl": "https://www.youtube.com/watch?v=YszONjTpQkk"
+      },
+      {
+        "id": "css-1-6",
+        "title": "Responsive Design and Media Queries",
+        "description": "Create responsive websites that work on all devices. Learn about mobile-first design, breakpoints, and responsive images.",
+        "duration": "38m",
+        "videourl": "https://www.youtube.com/watch?v=2KL-z9A56SQ"
+      },
+      {
+        "id": "css-1-7",
+        "title": "CSS Best Practices and Organization",
+        "description": "Learn CSS best practices, naming conventions, and how to organize your stylesheets. Understand CSS methodologies and maintainable code.",
+        "duration": "20m",
+        "videourl": "https://www.youtube.com/watch?v=SlHojXvqF9s"
+      }
+    ]
+  },
+  {
+    "id": "css-2",
+    "coursename": "CSS Course",
+    "heading": "Advanced CSS Techniques and Modern Styling",
+    "description": "Dive deep into advanced CSS techniques and modern styling approaches. This course covers CSS custom properties (variables), advanced selectors, CSS functions, and modern layout techniques. You'll learn about CSS-in-JS, CSS modules, and how to work with design systems. The course also covers performance optimization, browser compatibility, and how to create complex animations and effects that will make your websites stand out.",
+    "videourl": "https://www.youtube.com/watch?v=rIO5326F4PE",
+    "category": "CSS",
+    "package": "Beginner",
+    "duration": "3h 45m",
+    "totalVideos": 6,
+    "videos": [
+      {
+        "id": "css-2-1",
+        "title": "CSS Custom Properties and Variables",
+        "description": "Master CSS custom properties for dynamic styling and theming. Learn how to create maintainable and flexible stylesheets using CSS variables.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=rIO5326F4PE"
+      },
+      {
+        "id": "css-2-2",
+        "title": "Advanced CSS Selectors and Pseudo-elements",
+        "description": "Explore advanced selectors, pseudo-classes, and pseudo-elements. Learn how to target specific elements and create complex styling rules.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=3YW65K6LcIA"
+      },
+      {
+        "id": "css-2-3",
+        "title": "CSS Functions and Calculations",
+        "description": "Use CSS functions like calc(), clamp(), min(), max(), and custom functions. Learn how to create dynamic and responsive designs.",
+        "duration": "30m",
+        "videourl": "https://www.youtube.com/watch?v=0xMQfnTU6oo"
+      },
+      {
+        "id": "css-2-4",
+        "title": "CSS Transforms and 3D Effects",
+        "description": "Create stunning 3D effects and transformations using CSS. Learn about perspective, transform-origin, and 3D transforms.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=YszONjTpQkk"
+      },
+      {
+        "id": "css-2-5",
+        "title": "CSS Performance and Optimization",
+        "description": "Optimize CSS for better performance including critical CSS, code splitting, and efficient selectors. Learn about browser rendering optimization.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=2KL-z9A56SQ"
+      },
+      {
+        "id": "css-2-6",
+        "title": "Modern CSS Architecture and Methodologies",
+        "description": "Learn modern CSS architecture including BEM, OOCSS, and SMACSS. Understand how to scale CSS in large projects.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=SlHojXvqF9s"
+      }
+    ]
+  },
+  {
+    "id": "javascript-1",
+    "coursename": "JavaScript Course",
+    "heading": "JavaScript Fundamentals - Complete Beginner Guide",
+    "description": "Learn JavaScript from scratch with this comprehensive course. JavaScript is the programming language of the web, and this course will teach you everything you need to know to become a proficient JavaScript developer. You'll learn about variables, functions, objects, arrays, DOM manipulation, events, and asynchronous programming. The course covers both ES5 and modern ES6+ features, giving you a solid foundation for building interactive web applications and working with modern frameworks.",
+    "videourl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "category": "JavaScript",
+    "package": "Beginner",
+    "duration": "5h 30m",
+    "totalVideos": 8,
+    "videos": [
+      {
+        "id": "javascript-1-1",
+        "title": "JavaScript Basics and Variables",
+        "description": "Learn JavaScript fundamentals including variables, data types, operators, and basic syntax. Understand how JavaScript works in the browser.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+      },
+      {
+        "id": "javascript-1-2",
+        "title": "Functions and Scope in JavaScript",
+        "description": "Master JavaScript functions including function declarations, expressions, arrow functions, and understand scope and closures.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+      },
+      {
+        "id": "javascript-1-3",
+        "title": "Objects and Arrays in JavaScript",
+        "description": "Work with JavaScript objects and arrays. Learn about object properties, methods, array methods, and how to manipulate data structures.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=R8rmfD9Y5-c"
+      },
+      {
+        "id": "javascript-1-4",
+        "title": "DOM Manipulation and Events",
+        "description": "Interact with the DOM using JavaScript. Learn how to select elements, modify content, handle events, and create interactive web pages.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+      },
+      {
+        "id": "javascript-1-5",
+        "title": "Asynchronous JavaScript and Promises",
+        "description": "Understand asynchronous programming in JavaScript including callbacks, promises, and async/await. Learn how to handle API calls and async operations.",
+        "duration": "55m",
+        "videourl": "https://www.youtube.com/watch?v=PoRJizFvM7s"
+      },
+      {
+        "id": "javascript-1-6",
+        "title": "ES6+ Features and Modern JavaScript",
+        "description": "Learn modern JavaScript features including let/const, template literals, destructuring, spread operator, and arrow functions.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=WZQc7RUAg18"
+      },
+      {
+        "id": "javascript-1-7",
+        "title": "Error Handling and Debugging",
+        "description": "Learn how to handle errors in JavaScript and debug your code effectively. Understand try-catch blocks and debugging tools.",
+        "duration": "30m",
+        "videourl": "https://www.youtube.com/watch?v=Mus_vwhTCq0"
+      },
+      {
+        "id": "javascript-1-8",
+        "title": "JavaScript Best Practices and Code Organization",
+        "description": "Learn JavaScript best practices, code organization, and how to write maintainable and efficient JavaScript code.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=Mus_vwhTCq0"
+      }
+    ]
+  },
+  {
+    "id": "javascript-2",
+    "coursename": "JavaScript Course",
+    "heading": "Advanced JavaScript and Modern Development",
+    "description": "Take your JavaScript skills to the next level with advanced concepts and modern development practices. This course covers advanced JavaScript features, design patterns, performance optimization, and modern development tools. You'll learn about modules, classes, generators, proxies, and how to build scalable JavaScript applications. The course also covers testing, debugging, and how to work with modern frameworks and build tools.",
+    "videourl": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+    "category": "JavaScript",
+    "package": "Beginner",
+    "duration": "4h 15m",
+    "totalVideos": 6,
+    "videos": [
+      {
+        "id": "javascript-2-1",
+        "title": "Advanced JavaScript Concepts",
+        "description": "Explore advanced JavaScript concepts including closures, prototypes, inheritance, and the 'this' keyword. Understand JavaScript's unique features.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+      },
+      {
+        "id": "javascript-2-2",
+        "title": "ES6+ Advanced Features",
+        "description": "Master advanced ES6+ features including modules, classes, generators, async/await, and modern JavaScript syntax.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=R8rmfD9Y5-c"
+      },
+      {
+        "id": "javascript-2-3",
+        "title": "JavaScript Design Patterns",
+        "description": "Learn common JavaScript design patterns including module pattern, observer pattern, and how to write maintainable code.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+      },
+      {
+        "id": "javascript-2-4",
+        "title": "Performance Optimization and Memory Management",
+        "description": "Optimize JavaScript performance including memory management, efficient algorithms, and how to identify performance bottlenecks.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=PoRJizFvM7s"
+      },
+      {
+        "id": "javascript-2-5",
+        "title": "Testing and Debugging JavaScript",
+        "description": "Learn how to test JavaScript code including unit testing, integration testing, and debugging techniques and tools.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=WZQc7RUAg18"
+      },
+      {
+        "id": "javascript-2-6",
+        "title": "Modern JavaScript Development Tools",
+        "description": "Explore modern JavaScript development tools including bundlers, transpilers, and how to set up a modern development environment.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=Mus_vwhTCq0"
+      }
+    ]
+  },
+  {
+    "id": "php-1",
+    "coursename": "PHP Course",
+    "heading": "PHP Fundamentals - Server-Side Web Development",
+    "description": "Learn PHP from scratch and become a proficient server-side web developer. PHP is one of the most popular server-side programming languages, powering millions of websites including WordPress, Facebook, and many others. This course covers PHP basics, working with databases, form handling, sessions, cookies, and building dynamic web applications. You'll learn about PHP syntax, functions, arrays, objects, and how to create secure, scalable web applications.",
+    "videourl": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+    "category": "PHP",
+    "package": "Beginner",
+    "duration": "6h 10m",
+    "totalVideos": 7,
+    "videos": [
+      {
+        "id": "php-1-1",
+        "title": "PHP Basics and Setup",
+        "description": "Learn PHP fundamentals including syntax, variables, data types, and how to set up a local development environment with XAMPP or similar tools.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=OK_JCtrrv-c"
+      },
+      {
+        "id": "php-1-2",
+        "title": "PHP Functions and Control Structures",
+        "description": "Master PHP functions, conditional statements, loops, and control structures. Learn how to write reusable and efficient PHP code.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=BUCiSSyIGGU"
+      },
+      {
+        "id": "php-1-3",
+        "title": "PHP Arrays and Strings",
+        "description": "Work with PHP arrays and strings including array functions, string manipulation, and how to handle different data types effectively.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=2eebptXfEvw"
+      },
+      {
+        "id": "php-1-4",
+        "title": "PHP Forms and User Input",
+        "description": "Handle HTML forms with PHP including form validation, sanitization, and how to process user input securely.",
+        "duration": "55m",
+        "videourl": "https://www.youtube.com/watch?v=zZ6vybS1fRQ"
+      },
+      {
+        "id": "php-1-5",
+        "title": "PHP Sessions and Cookies",
+        "description": "Implement user sessions and cookies in PHP. Learn about session management, user authentication, and maintaining state.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=5G20TvQU1aE"
+      },
+      {
+        "id": "php-1-6",
+        "title": "PHP and MySQL Database Integration",
+        "description": "Connect PHP with MySQL databases. Learn about database operations, prepared statements, and how to build data-driven applications.",
+        "duration": "60m",
+        "videourl": "https://www.youtube.com/watch?v=WYufSGgaCZ8"
+      },
+      {
+        "id": "php-1-7",
+        "title": "PHP Security and Best Practices",
+        "description": "Learn PHP security best practices including input validation, SQL injection prevention, and how to build secure web applications.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=Ik7QzJtDc2s"
+      }
+    ]
+  },
+  {
+    "id": "php-2",
+    "coursename": "PHP Course",
+    "heading": "Advanced PHP and Modern Web Development",
+    "description": "Master advanced PHP concepts and modern web development practices. This course covers object-oriented programming in PHP, design patterns, frameworks, and building RESTful APIs. You'll learn about PHP 8+ features, Composer package management, and how to work with modern PHP frameworks like Laravel. The course also covers performance optimization, testing, and deployment strategies for PHP applications.",
+    "videourl": "https://www.youtube.com/watch?v=BUCiSSyIGGU",
+    "category": "PHP",
+    "package": "Beginner",
+    "duration": "4h 30m",
+    "totalVideos": 6,
+    "videos": [
+      {
+        "id": "php-2-1",
+        "title": "Object-Oriented Programming in PHP",
+        "description": "Master OOP concepts in PHP including classes, objects, inheritance, polymorphism, and encapsulation. Learn how to write maintainable code.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=BUCiSSyIGGU"
+      },
+      {
+        "id": "php-2-2",
+        "title": "PHP 8+ Features and Modern Syntax",
+        "description": "Explore PHP 8+ features including named arguments, match expressions, attributes, and other modern PHP syntax improvements.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=2eebptXfEvw"
+      },
+      {
+        "id": "php-2-3",
+        "title": "Composer and Package Management",
+        "description": "Learn how to use Composer for dependency management, autoloading, and how to work with PHP packages and libraries.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=zZ6vybS1fRQ"
+      },
+      {
+        "id": "php-2-4",
+        "title": "Building RESTful APIs with PHP",
+        "description": "Create RESTful APIs using PHP including HTTP methods, status codes, JSON responses, and API documentation.",
+        "duration": "55m",
+        "videourl": "https://www.youtube.com/watch?v=5G20TvQU1aE"
+      },
+      {
+        "id": "php-2-5",
+        "title": "PHP Testing and Debugging",
+        "description": "Learn how to test PHP code including unit testing, integration testing, and debugging techniques and tools.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=WYufSGgaCZ8"
+      },
+      {
+        "id": "php-2-6",
+        "title": "PHP Performance and Optimization",
+        "description": "Optimize PHP applications for better performance including caching, database optimization, and server configuration.",
+        "duration": "35m",
+        "videourl": "https://www.youtube.com/watch?v=Ik7QzJtDc2s"
+      }
+    ]
+  },
+  {
+    "id": "java-1",
+    "coursename": "Java Course",
+    "heading": "Java Fundamentals - Object-Oriented Programming",
+    "description": "Learn Java programming from the ground up with this comprehensive course. Java is one of the most popular programming languages in the world, used for building enterprise applications, Android apps, and web services. This course covers Java basics, object-oriented programming concepts, data structures, exception handling, and file I/O. You'll learn about classes, objects, inheritance, polymorphism, and how to write clean, maintainable Java code.",
+    "videourl": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+    "category": "Java",
+    "package": "Beginner",
+    "duration": "7h 25m",
+    "totalVideos": 8,
+    "videos": [
+      {
+        "id": "java-1-1",
+        "title": "Java Basics and Environment Setup",
+        "description": "Learn Java fundamentals including syntax, variables, data types, and how to set up the Java development environment with JDK and IDE.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+      },
+      {
+        "id": "java-1-2",
+        "title": "Java Control Structures and Methods",
+        "description": "Master Java control structures including if-else, loops, switch statements, and learn how to create and use methods effectively.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=grEKMHZynfs"
+      },
+      {
+        "id": "java-1-3",
+        "title": "Object-Oriented Programming in Java",
+        "description": "Learn OOP concepts in Java including classes, objects, constructors, and how to design object-oriented solutions.",
+        "duration": "60m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-1-4",
+        "title": "Inheritance and Polymorphism",
+        "description": "Master inheritance and polymorphism in Java including method overriding, super keyword, and creating class hierarchies.",
+        "duration": "55m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-1-5",
+        "title": "Java Arrays and Collections",
+        "description": "Work with Java arrays and collections framework including ArrayList, HashMap, and other collection classes.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-1-6",
+        "title": "Exception Handling in Java",
+        "description": "Learn how to handle exceptions in Java including try-catch blocks, custom exceptions, and best practices for error handling.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-1-7",
+        "title": "File I/O and Streams",
+        "description": "Work with files and streams in Java including reading from and writing to files, and handling different data formats.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-1-8",
+        "title": "Java Best Practices and Code Organization",
+        "description": "Learn Java best practices, coding standards, and how to organize and structure Java projects effectively.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      }
+    ]
+  },
+  {
+    "id": "java-2",
+    "coursename": "Java Course",
+    "heading": "Advanced Java and Enterprise Development",
+    "description": "Master advanced Java concepts and enterprise development practices. This course covers advanced Java features, design patterns, multithreading, networking, and building enterprise applications. You'll learn about Java 8+ features, Spring framework, database connectivity, and how to build scalable Java applications. The course also covers testing, debugging, and deployment strategies for Java applications.",
+    "videourl": "https://www.youtube.com/watch?v=grEKMHZynfs",
+    "category": "Java",
+    "package": "Beginner",
+    "duration": "5h 40m",
+    "totalVideos": 7,
+    "videos": [
+      {
+        "id": "java-2-1",
+        "title": "Advanced Java Features and Lambda Expressions",
+        "description": "Explore advanced Java features including lambda expressions, streams, method references, and functional programming concepts.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=grEKMHZynfs"
+      },
+      {
+        "id": "java-2-2",
+        "title": "Multithreading and Concurrency",
+        "description": "Master multithreading in Java including thread creation, synchronization, thread pools, and concurrent programming concepts.",
+        "duration": "55m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-2-3",
+        "title": "Java Design Patterns",
+        "description": "Learn common Java design patterns including singleton, factory, observer, and MVC patterns for building maintainable applications.",
+        "duration": "45m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-2-4",
+        "title": "Database Connectivity with JDBC",
+        "description": "Connect Java applications to databases using JDBC. Learn about database operations, prepared statements, and transaction management.",
+        "duration": "50m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-2-5",
+        "title": "Spring Framework Basics",
+        "description": "Introduction to Spring framework including dependency injection, IoC container, and building Spring applications.",
+        "duration": "60m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-2-6",
+        "title": "Java Testing and Debugging",
+        "description": "Learn how to test Java code including JUnit testing, mocking, and debugging techniques and tools.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      },
+      {
+        "id": "java-2-7",
+        "title": "Java Performance and Optimization",
+        "description": "Optimize Java applications for better performance including JVM tuning, memory management, and profiling techniques.",
+        "duration": "40m",
+        "videourl": "https://www.youtube.com/watch?v=8cm1x4bC610"
+      }
+    ]
+  }
+]

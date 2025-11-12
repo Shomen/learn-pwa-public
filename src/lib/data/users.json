@@ -3,43 +3,56 @@
     "id": 1,
     "name": "Test User",
     "email": "test@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {
+      "html-1": {
+        "completedVideos": [],
+        "progressPercentage": 0,
+        "lastAccessed": "2025-10-27T02:13:10.583Z"
+      }
+    }
   },
   {
     "id": 2,
     "name": "Test User2",
     "email": "test2@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 3,
     "name": "Test3 User",
     "email": "test3@email.com",
-    "password": "12345678"
+    "password": "12345678",
+    "courseProgress": {}
   },
   {
     "id": 4,
     "name": "Test4",
     "email": "test4@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 5,
     "name": "Test5 User",
     "email": "test5@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 6,
     "name": "Test6User",
     "email": "test@test.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 7,
     "name": "Test User8",
     "email": "test8@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 8,
@@ -51,138 +64,167 @@
     "id": 9,
     "name": "Test User10",
     "email": "test10@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 10,
     "name": "Test User11",
     "email": "test11@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 11,
     "name": "Test User12",
     "email": "test12@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 12,
     "name": "Test User13",
     "email": "test13@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 13,
     "name": "Test User14",
     "email": "test14@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 14,
     "name": "Test User15",
     "email": "test15@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 15,
     "name": "Test User16",
     "email": "test16@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 16,
     "name": "Test User17",
     "email": "test17@email.com",
-    "password": "12345678"
+    "password": "12345678",
+    "courseProgress": {}
   },
   {
     "id": 17,
     "name": "Test User18",
     "email": "test18@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 18,
     "name": "Test User19",
     "email": "test19@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 19,
     "name": "Test User20",
     "email": "shomenmuhury@yahoo.com",
-    "password": "12345678"
+    "password": "12345678",
+    "courseProgress": {}
   },
   {
     "id": 20,
     "name": "Test User21",
     "email": "test21@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 21,
     "name": "Test User21",
     "email": "test21@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 22,
     "name": "Test User22",
     "email": "test22@email.com",
-    "password": "12345678"
+    "password": "12345678",
+    "courseProgress": {}
   },
   {
     "id": 23,
     "name": "Test User23",
     "email": "test23@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 24,
     "name": "Test User23",
     "email": "test23@email.com",
-    "password": "123456"
+    "password": "123456",
+    "courseProgress": {}
   },
   {
     "id": 25,
     "name": "Test User24",
     "email": "test24@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 26,
     "name": "Test User25",
     "email": "test25@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 27,
     "name": "Test User26",
     "email": "test26@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 28,
     "name": "Test User27",
     "email": "test27@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 29,
     "name": "Test User28",
     "email": "test28@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 30,
     "name": "Test User30",
     "email": "test30@email.com",
-    "password": "1234567"
+    "password": "1234567",
+    "courseProgress": {}
   },
   {
     "id": 31,
     "name": "Test User31",
     "email": "test31@email.com",
-    "password": "12345678"
+    "password": "12345678",
+    "courseProgress": {}
+  },
+  {
+    "id": 32,
+    "name": "New Test",
+    "email": "new@email.com",
+    "password": "123456"
   }
 ]

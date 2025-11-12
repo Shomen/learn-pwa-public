@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
-import Link from "next/link";
 import LogoutButton from "./LogoutButton";
+import MobileNavLink from "./MobileNavLink";
 
 interface MobileMenuProps {
     isLoggedIn: boolean;
@@ -26,36 +26,43 @@ export default function MobileMenu({ isLoggedIn }: MobileMenuProps) {
                 </svg>
             </button>                   
 
-            <ul id="mobile-menu" className={`fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-8 ${isMenuOpen ? 'flex' : 'hidden'}`}>
+            <ul id="mobile-menu" className={`fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-6 ${isMenuOpen ? 'flex' : 'hidden'}`}>
                 <li>
-                    <Link href="/" className="" onClick={closeMenu}>
+                    <MobileNavLink href="/" onClick={closeMenu}>
                         Home
-                    </Link>
+                    </MobileNavLink>
                 </li>
                 
                 {isLoggedIn ? (
-                    <li>
-                        <LogoutButton />
-                    </li>
+                    <>
+                        <li>
+                            <MobileNavLink href="/dashboard" onClick={closeMenu}>
+                                Dashboard
+                            </MobileNavLink>
+                        </li>
+                        <li>
+                            <LogoutButton />
+                        </li>
+                    </>
                 ) : (
                     <>
                         <li>
-                            <Link href="/registration" className="" onClick={closeMenu}>
+                            <MobileNavLink href="/registration" onClick={closeMenu}>
                                 Registration
-                            </Link>
+                            </MobileNavLink>
                         </li>
                         <li>
-                            <Link href="/login" className="" onClick={closeMenu}>
+                            <MobileNavLink href="/login" onClick={closeMenu}>
                                 Login
-                            </Link>
+                            </MobileNavLink>
                         </li>
                     </>
                 )}
                 
                 <li>
-                    <Link href="/contact" className="" onClick={closeMenu}>
+                    <MobileNavLink href="/contact" onClick={closeMenu}>
                         Contact
-                    </Link>
+                    </MobileNavLink>
                 </li>
                 <li>
                     <button 

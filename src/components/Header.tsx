@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import { deCrypt } from "@/lib/session";
 import LogoutButton from "./LogoutButton";
 import MobileMenu from "./MobileMenu";
+import NavLink from "./NavLink";
 
 export default async function Header() {
     const cookieStore = await cookies();
@@ -25,36 +26,43 @@ export default async function Header() {
                 </Link>
 
                  <div className="hidden md:flex">
-                    <ul className="flex space-x-4">
+                    <ul className="flex space-x-4 items-center">
                         <li>
-                            <Link href="/" className="hover:underline">
+                            <NavLink href="/" className="hover:underline pb-1">
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         
                         {isLoggedIn ? (
-                            <li>
-                                <LogoutButton />
-                            </li>
+                            <>
+                                <li>
+                                    <NavLink href="/dashboard" className="hover:underline pb-1">
+                                        Dashboard
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <LogoutButton/>
+                                </li>
+                            </>
                         ) : (
                             <>
                                 <li>
-                                    <Link href="/registration" className="hover:underline">
+                                    <NavLink href="/registration" className="hover:underline pb-1">
                                         Registration
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link href="/login" className="hover:underline">
+                                    <NavLink href="/login" className="hover:underline pb-1">
                                         Login
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             </>
                         )}
                         
                         <li>
-                            <Link href="/contact" className="hover:underline">
+                            <NavLink href="/contact" className="hover:underline pb-1">
                                 Contact
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

@@ -11,7 +11,7 @@ type SessionPayload = {
 };
 
 export async function createSessionToken(userEmail: string) {
-    const expiresIn = new Date(Date.now() + 1000 * 60); // 1 minute
+    const expiresIn = new Date(Date.now() + 1000 * 60 * 60); // 1 minute
     const session = await enCrypt({userEmail, expiresIn});
 
     const cookieStore = await cookies();
@@ -28,7 +28,7 @@ export async function createSessionToken(userEmail: string) {
 export async function enCrypt(payload : SessionPayload) {
     const token = await new SignJWT(payload)
         .setProtectedHeader({ alg: 'HS256', typ: 'JWT' })
-        .setExpirationTime('1m')
+        .setExpirationTime('1h')
         .sign(encodedkey);
     return token;
 }
