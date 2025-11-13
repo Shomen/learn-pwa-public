@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
     "dev": "next dev -p 3001",
-    "start": "next start -p 3005"
+    "dev:webpack": "set TURBOPACK=0 && next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3005",
+    "lint": "eslint"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",

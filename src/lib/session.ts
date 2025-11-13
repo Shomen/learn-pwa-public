@@ -3,6 +3,9 @@ import { SignJWT, jwtVerify} from 'jose';
 import { cookies } from 'next/headers';
 
 const secretkey = process.env.JWT_SECRET;
+if (!secretkey) {
+  throw new Error('JWT_SECRET environment variable is not set. Please set it in your .env.local file.');
+}
 const encodedkey = new TextEncoder().encode(secretkey);
 
 type SessionPayload = {
