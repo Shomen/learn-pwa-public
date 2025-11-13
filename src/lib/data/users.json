@@ -226,5 +226,11 @@
     "name": "New Test",
     "email": "new@email.com",
     "password": "123456"
+  },
+  {
+    "id": 33,
+    "name": "Test User",
+    "email": "shomenmuhury@gmail.com",
+    "password": "123456"
   }
 ]
