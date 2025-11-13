@@ -98,6 +98,8 @@ export default function VideoList({ course, completedVideos, userEmail }: VideoL
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                           className="w-full"
+                          loading="lazy"
+                          title={video.title}
                         ></iframe>
                       </div>
 

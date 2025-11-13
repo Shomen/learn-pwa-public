@@ -4,9 +4,11 @@
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { deCrypt } from "@/lib/session";
-import LogoutButton from "./LogoutButton";
-import MobileMenu from "./MobileMenu";
-import NavLink from "./NavLink";
+import dynamic from "next/dynamic";
+
+const LogoutButton = dynamic(() => import("./LogoutButton"), { ssr: true });
+const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: true });
+const NavLink = dynamic(() => import("./NavLink"), { ssr: true });
 
 export default async function Header() {
     const cookieStore = await cookies();

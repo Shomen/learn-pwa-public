@@ -49,7 +49,8 @@ export default function ContactPage() {
                     alt="Contact us"
                     fill
                     className="object-cover"
-                    priority
+                    loading="lazy"
+                    sizes="50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
                 {/* Optional overlay text */}

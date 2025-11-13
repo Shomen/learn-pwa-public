@@ -1,12 +1,37 @@
 /**
  * Individual Course Page
  */
-import React from 'react';
+import React, { Suspense } from 'react';
 import { getCourseById, getCourseProgress, updateCourseProgress } from '@/lib/courseProgress';
 import { cookies } from 'next/headers';
 import { deCrypt } from '@/lib/session';
 import { notFound } from 'next/navigation';
-import VideoList from '@/components/VideoList';
+import dynamic from 'next/dynamic';
+
+const VideoList = dynamic(() => import('@/components/VideoList'), {
+  loading: () => (
+    <div className="bg-white rounded-lg shadow-md animate-pulse">
+      <div className="p-6 border-b">
+        <div className="h-8 bg-gray-200 rounded w-48 mb-2"></div>
+        <div className="h-4 bg-gray-200 rounded w-64"></div>
+      </div>
+      <div className="divide-y divide-gray-200">
+        {[...Array(5)].map((_, i) => (
+          <div key={i} className="p-6">
+            <div className="flex items-start space-x-4">
+              <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
+              <div className="flex-1 space-y-2">
+                <div className="h-5 bg-gray-200 rounded w-3/4"></div>
+                <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  ),
+  ssr: true
+});
 
 interface CoursePageProps {
   params: Promise<{
@@ -107,11 +132,33 @@ export default async function CoursePage({ params }: CoursePageProps) {
             </div>
 
             {/* Video List */}
-            <VideoList 
-              course={course} 
-              completedVideos={progress.completedVideos}
-              userEmail={userEmail}
-            />
+            <Suspense fallback={
+              <div className="bg-white rounded-lg shadow-md animate-pulse">
+                <div className="p-6 border-b">
+                  <div className="h-8 bg-gray-200 rounded w-48 mb-2"></div>
+                  <div className="h-4 bg-gray-200 rounded w-64"></div>
+                </div>
+                <div className="divide-y divide-gray-200">
+                  {[...Array(5)].map((_, i) => (
+                    <div key={i} className="p-6">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
+                        <div className="flex-1 space-y-2">
+                          <div className="h-5 bg-gray-200 rounded w-3/4"></div>
+                          <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            }>
+              <VideoList 
+                course={course} 
+                completedVideos={progress.completedVideos}
+                userEmail={userEmail}
+              />
+            </Suspense>
           </div>
 
           {/* Sidebar */}
