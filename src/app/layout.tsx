@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${nunito.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning>
       <Header />
       <main className="min-h-[70vh]">
         {children}
