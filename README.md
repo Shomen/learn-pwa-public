@@ -24,32 +24,32 @@ You can use the following credentials to test the application:
   <table>
     <tr>
       <td align="center">
-        <img src="public/desk/Desk-Home.webp" alt="Desktop Home" width="300"/>
-        <br/><strong>Home Page</strong>
+         <br/><strong>Home Page</strong><br/><br/>
+        <img src="public/desk/Desk-Home.webp" alt="Desktop Home" width="300"/>        
       </td>
       <td align="center">
-        <img src="public/desk/Desk-Reg.webp" alt="Desktop Registration" width="300"/>
-        <br/><strong>Registration</strong>
+         <br/><strong>Registration</strong><br/><br/>
+        <img src="public/desk/Desk-Reg.webp" alt="Desktop Registration" width="300"/>        
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="public/desk/desk-dash.webp" alt="Desktop Dashboard" width="300"/>
-        <br/><strong>Dashboard</strong>
+         <br/><strong>Dashboard</strong><br/><br/>
+        <img src="public/desk/desk-dash.webp" alt="Desktop Dashboard" width="300"/>        
       </td>
       <td align="center">
+         <br/><strong>Course View</strong><br/><br/>
         <img src="public/desk/desk-dash-course.webp" alt="Desktop Course View" width="300"/>
-        <br/><strong>Course View</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
+         <br/><strong>Course Details</strong><br/><br/>
         <img src="public/desk/desk-dash-course2.webp" alt="Desktop Course Details" width="300"/>
-        <br/><strong>Course Details</strong>
       </td>
       <td align="center">
+         <br/><strong>Contact</strong><br/><br/>
         <img src="public/desk/desk-contact.webp" alt="Desktop Contact" width="300"/>
-        <br/><strong>Contact</strong>
       </td>
     </tr>
   </table>
@@ -60,32 +60,32 @@ You can use the following credentials to test the application:
   <table>
     <tr>
       <td align="center">
+         <br/><strong>Home Page</strong><br/><br/>
         <img src="public/tab/tab-home.webp" alt="Tablet Home" width="250"/>
-        <br/><strong>Home Page</strong>
       </td>
       <td align="center">
+         <br/><strong>Registration</strong><br/><br/>
         <img src="public/tab/tab-reg.webp" alt="Tablet Registration" width="250"/>
-        <br/><strong>Registration</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
+         <br/><strong>Dashboard</strong><br/><br/>
         <img src="public/tab/tab-dash.webp" alt="Tablet Dashboard" width="250"/>
-        <br/><strong>Dashboard</strong>
       </td>
       <td align="center">
+         <br/><strong>Course View</strong><br/><br/>
         <img src="public/tab/tab-dash-course.webp" alt="Tablet Course View" width="250"/>
-        <br/><strong>Course View</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
+         <br/><strong>Course Details</strong><br/><br/>
         <img src="public/tab/tab-dash-course2.webp" alt="Tablet Course Details" width="250"/>
-        <br/><strong>Course Details</strong>
       </td>
       <td align="center">
+         <br/><strong>Contact</strong><br/><br/>
         <img src="public/tab/tab-contact.webp" alt="Tablet Contact" width="250"/>
-        <br/><strong>Contact</strong>
       </td>
     </tr>
   </table>
@@ -96,32 +96,32 @@ You can use the following credentials to test the application:
   <table>
     <tr>
       <td align="center">
+         <br/><strong>Home Page</strong><br/><br/>
         <img src="public/mob/mob-home.webp" alt="Mobile Home" width="200"/>
-        <br/><strong>Home Page</strong>
       </td>
       <td align="center">
+         <br/><strong>Registration</strong><br/><br/>
         <img src="public/mob/mob-reg.webp" alt="Mobile Registration" width="200"/>
-        <br/><strong>Registration</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
+         <br/><strong>Dashboard</strong><br/><br/>
         <img src="public/mob/mob-dash.webp" alt="Mobile Dashboard" width="200"/>
-        <br/><strong>Dashboard</strong>
       </td>
       <td align="center">
+         <br/><strong>Course View</strong><br/><br/>
         <img src="public/mob/mob-dash-course.webp" alt="Mobile Course View" width="200"/>
-        <br/><strong>Course View</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
+         <br/><strong>Course Details</strong><br/><br/>
         <img src="public/mob/mob-dash-course2.webp" alt="Mobile Course Details" width="200"/>
-        <br/><strong>Course Details</strong>
       </td>
       <td align="center">
+         <br/><strong>Contact</strong><br/><br/>
         <img src="public/mob/mob-contact.webp" alt="Mobile Contact" width="200"/>
-        <br/><strong>Contact</strong>
       </td>
     </tr>
   </table>
