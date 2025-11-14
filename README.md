@@ -6,6 +6,127 @@ A modern, full-stack learning management platform built with Next.js that provid
 
 LearnHub is a comprehensive learning platform that enables users to browse courses by category, watch embedded video lessons, track their learning progress, and install the app on their devices for offline access. The application features secure user authentication, real-time progress tracking, and a responsive design optimized for both desktop and mobile devices.
 
+## 🌐 Live Demo
+
+**Live Application:** [https://learning-hub-dusky.vercel.app/](https://learning-hub-dusky.vercel.app/)
+
+### Test Credentials
+
+You can use the following credentials to test the application:
+
+- **Email:** `test@email.com`
+- **Password:** `123456`
+
+## 📸 Screenshots
+
+### Desktop View
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="public/desk/Desk-Home.webp" alt="Desktop Home" width="300"/>
+        <br/><strong>Home Page</strong>
+      </td>
+      <td align="center">
+        <img src="public/desk/Desk-Reg.webp" alt="Desktop Registration" width="300"/>
+        <br/><strong>Registration</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/desk/desk-dash.webp" alt="Desktop Dashboard" width="300"/>
+        <br/><strong>Dashboard</strong>
+      </td>
+      <td align="center">
+        <img src="public/desk/desk-dash-course.webp" alt="Desktop Course View" width="300"/>
+        <br/><strong>Course View</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/desk/desk-dash-course2.webp" alt="Desktop Course Details" width="300"/>
+        <br/><strong>Course Details</strong>
+      </td>
+      <td align="center">
+        <img src="public/desk/desk-contact.webp" alt="Desktop Contact" width="300"/>
+        <br/><strong>Contact</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Tablet View
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="public/tab/tab-home.webp" alt="Tablet Home" width="250"/>
+        <br/><strong>Home Page</strong>
+      </td>
+      <td align="center">
+        <img src="public/tab/tab-reg.webp" alt="Tablet Registration" width="250"/>
+        <br/><strong>Registration</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/tab/tab-dash.webp" alt="Tablet Dashboard" width="250"/>
+        <br/><strong>Dashboard</strong>
+      </td>
+      <td align="center">
+        <img src="public/tab/tab-dash-course.webp" alt="Tablet Course View" width="250"/>
+        <br/><strong>Course View</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/tab/tab-dash-course2.webp" alt="Tablet Course Details" width="250"/>
+        <br/><strong>Course Details</strong>
+      </td>
+      <td align="center">
+        <img src="public/tab/tab-contact.webp" alt="Tablet Contact" width="250"/>
+        <br/><strong>Contact</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Mobile View
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="public/mob/mob-home.webp" alt="Mobile Home" width="200"/>
+        <br/><strong>Home Page</strong>
+      </td>
+      <td align="center">
+        <img src="public/mob/mob-reg.webp" alt="Mobile Registration" width="200"/>
+        <br/><strong>Registration</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/mob/mob-dash.webp" alt="Mobile Dashboard" width="200"/>
+        <br/><strong>Dashboard</strong>
+      </td>
+      <td align="center">
+        <img src="public/mob/mob-dash-course.webp" alt="Mobile Course View" width="200"/>
+        <br/><strong>Course View</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="public/mob/mob-dash-course2.webp" alt="Mobile Course Details" width="200"/>
+        <br/><strong>Course Details</strong>
+      </td>
+      <td align="center">
+        <img src="public/mob/mob-contact.webp" alt="Mobile Contact" width="200"/>
+        <br/><strong>Contact</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## ✨ Features
 
 ### Authentication & Security
@@ -178,21 +299,27 @@ learn-pwa/
 
 ## 🌐 Deployment
 
-### Vercel (Recommended)
+> **⚠️ Important Note on Serverless Platforms:**
+> 
+> This application uses file system-based data storage (JSON files) for user data and course progress. While this works perfectly on **localhost** and traditional hosting platforms with persistent file systems, it **will not work** on serverless platforms like Vercel, Netlify, or AWS Lambda.
+> 
+> **Why?** Serverless platforms use a **read-only, ephemeral file system** in production. This means:
+> - Files can be read during build time, but cannot be written to at runtime
+> - The file system is reset on each function invocation
+> - Data written during one request will not persist to the next request
+> 
+> **For production deployment on serverless platforms**, you would need to migrate the data storage to:
+> - A database (PostgreSQL, MongoDB, etc.)
+> - A cloud storage service (AWS S3, Google Cloud Storage, etc.)
+> - A database-as-a-service (Supabase, Firebase, PlanetScale, etc.)
+> 
+> The current implementation is ideal for:
+> - Local development and testing
+> - Traditional VPS/server hosting (DigitalOcean, AWS EC2, etc.)
+> - Docker containers with persistent volumes
+> - Self-hosted deployments
 
-1. Push your code to GitHub
-2. Import project in Vercel
-3. Add environment variables in Vercel dashboard:
-   - `JWT_SECRET`
-   - `RESEND_API_KEY`
-   - `RESEND_FROM_EMAIL`
-4. Deploy!
 
-### Other Platforms
-
-Set environment variables in your hosting platform's dashboard and deploy.
-
-**Important:** Never commit `.env.local` to git - it contains sensitive information!
 
 ## 🎯 Key Highlights
 

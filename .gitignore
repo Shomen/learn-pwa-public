@@ -39,9 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Public repo specific files (not needed in private repo)
-public/README.md
-
-# Scripts folder (only needed for maintaining public repo, not for production)
-scripts/

@@ -116,7 +116,7 @@ This email was sent from the contact form on your website.
 
         if (error) {
             console.error('Resend error:', error.message || error);
-            
+
             // Provide more specific error message based on actual error
             let errorMessage = "Failed to send email. Please try again later.";
             
